@@ -1,24 +1,23 @@
 <script lang="ts">
 	import WindowSection from 'ilojo-bar-components/components/WindowSection.svelte';
 	import Window from 'ilojo-bar-components/components/Window.svelte';
-  import type { PageData } from './$types';
-	export let data: PageData;
-  console.log(data);
+  import * as prismic from '@prismicio/helpers';
+	export let data;
+	const stories = data.documents
 </script>
 
 <section class="stories">
 	<h1>Discover stories</h1>
-
 	<WindowSection>
-	{#each data.stories as { title, image, id }}
-		<a href="story/{id}">
-			<Window
-			storyImage={image.url}
-			altTag={title}
-			storyTitle={title}
-			>
-			</Window>
-		</a>
+	{#each stories as story}
+			<a href="/{story.uid}">
+					<Window
+					storyImage={story.data.image.url}
+					altTag={story.data.image.url}
+					storyTitle={story.data.title}
+					>
+					</Window>
+			</a>
 	{/each}
 	</WindowSection>
 </section>
@@ -27,7 +26,6 @@
 	.stories {
 		padding-top: 3em;
 	}
-
 	a {
 		color: var(--color-white);
 		text-decoration: none;

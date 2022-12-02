@@ -6,21 +6,21 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"svelte": "^3.53.1",
 		"svelte-check": "^2.9.2",
-		"svelte-preprocess": "^4.10.7",
-		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"vite": "^3.2.4"
 	},
 	"type": "module",
 	"dependencies": {
+		"@prismicio/client": "^6.7.1",
+		"@prismicio/helpers": "^2.3.6",
 		"ilojo-bar-components": "^1.1.0"
 	}
 }

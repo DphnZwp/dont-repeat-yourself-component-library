@@ -31,12 +31,6 @@ body {
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p {
     padding: 0;
     margin: 0;
@@ -62,7 +56,11 @@ header a {
     text-decoration: none;
 }
 
-.story__content>img {
+footer h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.story__content img { 
     width: 100%;
-    height: auto;
 }
