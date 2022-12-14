@@ -1,38 +1,57 @@
-# create-svelte
+> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Component library Implementatie 
 
-## Creating a project
+## Inhoudsopgave
 
-If you're seeing this, you've probably already done this step. Congrats!
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Gebruik](#gebruik)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Beschrijving
+<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+<!-- Voeg een mooie poster visual toe 📸 -->
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Kenmerken
+- 💀 HTML5
+- 🧍 CSS3
+- ⚽ JavaScript
+- 🐸 Sveltekit
+- 🥇 Prismic
+
+### Tools gebruikt:
+- 💻 Visual Studio Code
+
+## 💫Installatie & Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open een nieuwe terminal en typ "npm run start" of "npm run dev".
+
+Hieronder zijn commandlines van HTTPS en SSH die je kunt uitvoeren in de opdrachtprompt om het project te clonen en om naar de root directory te gaan.
+
+**Installeren met HTTPS**
+
+```
+git clone https://github.com/DphnZwp/performance-matters-coding-the-curbs
+cd https://github.com/DphnZwp/performance-matters-coding-the-curbs.git
 ```
 
-## Developing
+**Installeren met SSH**
+```
+git@github.com:DphnZwp/performance-matters-coding-the-curbs.git
+cd performance-matters-coding-the-curbs.git
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Gebruik
 
-To create a production version of your app:
+## Bronnen
 
-```bash
-npm run build
-```
+## Licentie
 
-You can preview the production build with `npm run preview`.
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This work is licensed under [GNU GPLv3](./LICENSE).
