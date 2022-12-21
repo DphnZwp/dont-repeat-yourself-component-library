@@ -26,7 +26,7 @@ Componenten gebruiken van een componenten library voor de website van Ilojo Bar.
 ### Tools gebruikt:
 - 💻 Visual Studio Code
 
-## 💫Installatie & Gebruik
+## 💫Installatie
 1. Clone of download deze respository.
 2. Ga naar de root directory van het project.
 3. Open een nieuwe terminal en typ "npm run start" of "npm run dev".
